@@ -45,6 +45,7 @@
             this.txtb10 = new System.Windows.Forms.TextBox();
             this.bGeneraArray = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.bOrdinamento = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbMassimo
@@ -187,12 +188,24 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // bOrdinamento
+            // 
+            this.bOrdinamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bOrdinamento.Location = new System.Drawing.Point(182, 138);
+            this.bOrdinamento.Name = "bOrdinamento";
+            this.bOrdinamento.Size = new System.Drawing.Size(113, 23);
+            this.bOrdinamento.TabIndex = 17;
+            this.bOrdinamento.Text = "Ordinamento";
+            this.bOrdinamento.UseVisualStyleBackColor = true;
+            this.bOrdinamento.Click += new System.EventHandler(this.bOrdinamento_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(312, 179);
+            this.Controls.Add(this.bOrdinamento);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.bGeneraArray);
             this.Controls.Add(this.txtb10);
@@ -237,6 +250,7 @@
         private System.Windows.Forms.TextBox txtb10;
         private System.Windows.Forms.Button bGeneraArray;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bOrdinamento;
     }
 }
 
